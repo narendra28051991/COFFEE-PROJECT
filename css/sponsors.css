@@ -1,0 +1,17 @@
+.sponsors {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.sponsors h3 {
+    padding: 40px 0;
+}
+.logos {
+    display: grid;
+    gap: 30px 10px;
+    margin: 0 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.logos img {
+    width: 85px;
+}
