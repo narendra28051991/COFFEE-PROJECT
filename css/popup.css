@@ -1,0 +1,7 @@
+.popup {
+    width: 1200px;
+    background: #707070;
+}
+.popup.show {
+    margin-top: 0;
+}

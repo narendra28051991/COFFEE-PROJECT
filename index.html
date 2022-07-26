@@ -10,11 +10,14 @@
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/sponsors.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/dropdown.css">
+  <link rel="stylesheet" href="css/popup.css">
   <title>The Brown Rabbit</title>
 </head>
 <body>
   
   <!-- Navbar Page -->
+<nav>  
   <div class="navbar">
     <div class="left">
       <div class="image">
@@ -25,11 +28,11 @@
     <div class="right">
       <div class="top">
         <ul class="social-media">
-          <li class="logo">
+          <li class="logo" id="drop-message">
             <span><img src="assets/icons/search-white.svg" alt="search icon"></span>
-            <span><input type="text" value="search"></span>
+            <p>search</p>
           </li>
-          <li class="logo"><img src="assets/icons/facebook-white.svg" alt="linkedin"></li>
+          <li class="logo"><img src="assets/icons/linkedin.svg" alt="linkedin"></li>
           <li class="logo"><img src="assets/icons/facebook-white.svg" alt="twitter"></li>
           <li class="logo"><img src="assets/icons/instagram-white.svg" alt="instagram"></li>
           <li class="logo"><img src="assets/icons/facebook-white.svg" alt="facebook"></li>
@@ -49,7 +52,7 @@
       </div>
     </div>  
   </div>
-
+</nav>
 
   <!-- Slider Page -->
   <div class="slider">
@@ -216,15 +219,18 @@
           <p>World Barista Cup</p>
           <p>Amager Torv 16</p>
           <p>1160 Copenhagen K</p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <p>+45 33 12 04 28</p>
+          <p>CVR: 11427693</p>
+          <p>Email: info@worlsbaristacup.com</p>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="js/script.js"></script>
+  <div class="white-space"></div>
+
+  <script src="js/dropdown.js"></script>
+  <script src="js/popup.js"></script>
   
 </body>
 </html>
