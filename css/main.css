@@ -1,11 +1,13 @@
-
-/* base styles #ffffff(white) #DDDDDD(light) #707070(dark) #000000(black) */
-html, body, #root {
-    height: 100%;
-}
 body {
-    min-height: 100vh;
-    background: #ffffff;
-    color: #000000;
-    font-family: Times New Georgia, 'Times New Roman', Times, serif;
+  min-height: 100vh;
+  background: #ffffff;
+  color: #000000;
+  font-family: Times New Georgia, "Times New Roman", Times, serif;
+}
+
+/* tablet view */
+@media screen and (max-width: 768px) {
+  body {
+    width: 126%;
+  }
 }
